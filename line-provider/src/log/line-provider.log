@@ -1,0 +1,67 @@
+2024-12-12 12:53:29,868:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 12:56:35,969:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:01:36,142:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:06:36,485:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:08:35,594:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:09:40,455:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:12:23,719:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:12:49,395:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:16:39,495:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:20:16,434:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:20:31,063:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:21:18,278:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:21:21,710:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:22:07,269:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:23:10,600:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:23:14,134:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:24:21,612:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:24:41,589:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:25:51,626:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:25:54,149:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:25:56,933:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:27:37,524:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:27:38,345:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:27:39,809:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:28:29,046:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:28:30,916:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:28:32,159:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:28:59,585:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:29:06,960:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:29:42,187:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:29:44,634:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:29:46,017:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:30:02,292:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:30:07,310:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:30:36,453:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:30:38,760:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:30:40,093:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:30:43,296:src.core.storage:storage.py:set_one:WARNING :Update competed for 1
+2024-12-12 13:31:01,918:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:31:02,821:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:31:04,028:src.core.storage:storage.py:add_one:ERROR :Duplicate event id
+2024-12-12 13:31:07,272:src.core.storage:storage.py:set_one:WARNING :Update competed for 1
+2024-12-12 13:31:23,249:src.core.storage:storage.py:set_one:WARNING :Update competed for 1
+2024-12-12 13:35:55,452:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:38:57,881:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:39:18,914:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 2
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 3
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 4
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 5
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 6
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 7
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 8
+2024-12-12 13:39:18,915:src.core.storage:storage.py:add_one:WARNING :Add competed for 9
+2024-12-12 13:39:18,916:src.core.storage:storage.py:add_one:WARNING :Add competed for 10
+2024-12-12 13:39:18,916:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-12 13:45:52,253:src.core.storage:storage.py:add_one:WARNING :Add competed for 1
+2024-12-12 13:45:52,253:src.core.storage:storage.py:add_one:WARNING :Add competed for 2
+2024-12-12 13:45:52,253:src.core.storage:storage.py:add_one:WARNING :Add competed for 3
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 4
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 5
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 6
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 7
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 8
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 9
+2024-12-12 13:45:52,254:src.core.storage:storage.py:add_one:WARNING :Add competed for 10
+2024-12-12 13:45:52,254:START:main.py:lifespan:WARNING :===== Starting line-provider =====
