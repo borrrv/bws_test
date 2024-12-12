@@ -7,3 +7,4 @@ load_dotenv()
 
 class Config:
     DEBUG = getenv("DEBUG")
+    LOCAL = getenv("LOCAL")
