@@ -1,9 +1,11 @@
-from fastapi import Depends, Request, HTTPException
-
-from .router import router
 import logging
 
+from fastapi import HTTPException, Request
+
+from .router import router
+
 logger = logging.getLogger(__name__)
+
 
 @router.delete("/{_id}", status_code=204)
 def delete_one(request: Request, _id: str):

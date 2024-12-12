@@ -1,6 +1,9 @@
-from pydantic import BaseModel
 import decimal
+
+from pydantic import BaseModel
+
 from .enum import EventState
+
 
 class EventCreateDTO(BaseModel):
     event_id: str
@@ -8,13 +11,16 @@ class EventCreateDTO(BaseModel):
     deadline: decimal.Decimal
     state: EventState
 
+
 class EventUpdateDTO(BaseModel):
     coefficient: decimal.Decimal | None = None
     deadline: decimal.Decimal | None = None
     state: EventState | None = None
 
+
 class EventPatchDTO(BaseModel):
     state: EventState
+
 
 class EventGetDTO(EventCreateDTO):
 

@@ -4,6 +4,7 @@ import os
 LOG_FILENAME = "line-provider.log"
 LOG_FILENAME_ERR = "line-provider_error.log"
 
+
 def init_logger():
     log_dir = os.path.join(os.path.dirname(__file__), "..", "log")
     if not os.path.exists(log_dir):

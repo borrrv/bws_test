@@ -1,5 +1,6 @@
-from fastapi import Request, HTTPException
-from .models import EventUpdateDTO, EventPatchDTO
+from fastapi import HTTPException, Request
+
+from .models import EventPatchDTO
 from .router import router
 
 

@@ -1,10 +1,13 @@
-from pydantic import BaseModel
-from src.core.singleton import singleton
+from decimal import Decimal
 from logging import getLogger
 from time import time
-from decimal import Decimal
+
+from pydantic import BaseModel
+
+from src.core.singleton import singleton
 
 logger = getLogger(__name__)
+
 
 @singleton
 class Storage:
@@ -26,8 +29,8 @@ class Storage:
             logger.warning(f"Add competed for {data.event_id}")
             return self.storage[data.event_id]
         else:
-            logger.error('Duplicate event id')
-            raise ValueError('Duplicate event id')
+            logger.error("Duplicate event id")
+            raise ValueError("Duplicate event id")
 
     def delete_one(self, _id: str) -> None:
         if _id in self.storage:
