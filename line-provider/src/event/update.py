@@ -8,13 +8,14 @@ from .router import router
 async def patch_one(request: Request, _id: str, data: EventPatchDTO):
     """
     Обновить статус события.
+    1: незавершённое,
+    2: завершено выигрышем первой команды,
+    3: завершено выигрышем второй команды и, соответственно, поражением первой
     """
     existing_event = request.app.state.storage.get_one(_id)
     if not existing_event:
         raise HTTPException(status_code=404, detail=f"Event with id {_id} not found")
     updated_data = existing_event.copy(update=data.model_dump(exclude_unset=True))
     request.app.state.storage.set_one(_id, updated_data)
-    await request.app.state.rabbitmq.publish_message(
-        {"status": data.state.value, "event_id": _id}
-    )
+    await request.app.state.rabbitmq.publish_message({"status": data.state.value, "event_id": _id})
     return
