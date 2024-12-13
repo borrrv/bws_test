@@ -90,9 +90,10 @@ class Storage:
 
     def add_values(self):
         for i in range(1, 11):
+            coefficient = Decimal(1.22).quantize(Decimal("0.01"), rounding="ROUND_DOWN")
             data = {
                 "event_id": str(i),
-                "coefficient": i + 1.2,
+                "coefficient": coefficient,
                 "deadline": randint(20, 60),
                 "state": 1,
             }

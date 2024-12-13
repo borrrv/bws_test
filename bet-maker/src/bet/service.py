@@ -4,6 +4,7 @@ import logging
 from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
+
 from src.grpc_event import grpc_client
 from src.utils.cruds import CreateService, GetListService, UpdateService
 
@@ -28,6 +29,8 @@ class BetCreateService(CreateService):
         check_value = await grpc_client.event_check_time(params.event_id)
         if not check_value:
             raise ValueError("Time is up!")
+        if params.bet_amount <= 0:
+            raise ValueError("Amount must be positive")
         result = await super().create_one(session, params)
         return result
 

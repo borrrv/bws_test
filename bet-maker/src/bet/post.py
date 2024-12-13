@@ -18,7 +18,6 @@ async def create_one(
         Проверяет на наличие события и попадание в дедлайны.
     """
     try:
-
         result = await BetCreateService.create_one(session=session, params=params)
     except IntegrityError as e:
         raise HTTPException(404, detail=str(e))
