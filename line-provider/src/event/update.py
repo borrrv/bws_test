@@ -6,6 +6,9 @@ from .router import router
 
 @router.patch("/{_id}", status_code=204)
 async def patch_one(request: Request, _id: str, data: EventPatchDTO):
+    """
+    Обновить статус события.
+    """
     existing_event = request.app.state.storage.get_one(_id)
     if not existing_event:
         raise HTTPException(status_code=404, detail=f"Event with id {_id} not found")
