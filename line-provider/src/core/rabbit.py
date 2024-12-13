@@ -14,20 +14,30 @@ logger = logging.getLogger(__name__)
 class RabbitMQ:
 
     def __init__(self):
-        self.user = Config.RABBITMQ_USER
-        self.password = Config.RABBIT_MQ_PASSWORD
-        self.url = Config.RABBIT_MQ_URL
-        self.connection = None
+        self.__user = Config.RABBITMQ_USER
+        self.__password = Config.RABBIT_MQ_PASSWORD
+        self.__url = Config.RABBIT_MQ_URL
+        self.__connection = None
+        self.__max_retries = 5
+        self.__retry_delay = 15
 
     async def initialize(self):
-        try:
-            self.connection = await aio_pika.connect_robust(
-                f"amqp://{self.user}:{self.password}@{self.url}"
-            )
-            logger.info("Initialize RabbitMQ complete")
-        except Exception as e:
-            logger.error(f"Error initializing connection: {e}")
-            raise
+        for attempt in range(1, self.__max_retries + 1):
+            try:
+                self.__connection = await aio_pika.connect_robust(
+                    f"amqp://{self.__user}:{self.__password}@{self.__url}"
+                )
+                logger.info("Initialize RabbitMQ complete")
+                return
+            except aio_pika.exceptions.AMQPConnectionError as e:
+                logger.error(
+                    f"Attempt {attempt}/{self.__max_retries}: Error initializing connection: {e}"
+                )
+                if attempt < self.__max_retries:
+                    await asyncio.sleep(self.__retry_delay)
+                else:
+                    logger.error("All retry attempts failed")
+                    raise
 
     async def publish_message(
         self,
@@ -36,7 +46,7 @@ class RabbitMQ:
         routing_key: str = "bet_key",
     ):
         try:
-            channel = await self.connection.channel()
+            channel = await self.__connection.channel()
             exchange = await channel.declare_exchange(
                 exchange_name, aio_pika.ExchangeType.TOPIC, durable=True
             )
@@ -53,7 +63,7 @@ class RabbitMQ:
 
     async def create_queue(self, queue_name: str):
         try:
-            channel = await self.connection.channel()
+            channel = await self.__connection.channel()
             queue = await channel.declare_queue(queue_name, auto_delete=False)
             logger.info(f"Queue {queue_name} created")
             return queue
@@ -63,7 +73,7 @@ class RabbitMQ:
 
     async def create_exchange(self, exchange_name: str):
         try:
-            channel = await self.connection.channel()
+            channel = await self.__connection.channel()
             exchange = await channel.declare_exchange(
                 exchange_name, aio_pika.ExchangeType.TOPIC, durable=True
             )
@@ -74,10 +84,10 @@ class RabbitMQ:
             raise
 
     async def start(self):
-        if not self.connection:
+        if not self.__connection:
             await self.initialize()
 
-        async with self.connection:
+        async with self.__connection:
             try:
                 exchange_bet = await self.create_exchange("bet_exchange")
                 queue_bet = await self.create_queue("bet")
@@ -90,9 +100,9 @@ class RabbitMQ:
                 logger.error(f"Error during RabbitMQ consumption: {e}")
 
     async def close(self):
-        if self.connection:
+        if self.__connection:
             try:
-                await self.connection.close()
+                await self.__connection.close()
                 logger.info("Connection closed")
             except Exception as e:
                 logger.error(f"Error closing connection: {e}")

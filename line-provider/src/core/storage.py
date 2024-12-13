@@ -1,10 +1,13 @@
 from decimal import Decimal
 from logging import getLogger
+from random import randint
 from time import time
 
-import event_pb2
 from pydantic import BaseModel
+
+import event_pb2
 from src.core.singleton import singleton
+from src.event.models import EventCreateDTO
 
 logger = getLogger(__name__)
 
@@ -14,6 +17,7 @@ class Storage:
 
     def __init__(self):
         self.__storage: dict[str, BaseModel] = {}
+        self.add_values()
 
     def get_one(self, _id: str) -> BaseModel:
         return self.__storage.get(_id)
@@ -83,3 +87,13 @@ class Storage:
         if self.__storage[_id].deadline > time():
             return True
         return False
+
+    def add_values(self):
+        for i in range(1, 11):
+            data = {
+                "event_id": str(i),
+                "coefficient": i + 1.2,
+                "deadline": randint(20, 60),
+                "state": 1,
+            }
+            self.add_one(EventCreateDTO(**data))
