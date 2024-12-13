@@ -1,8 +1,0 @@
-2024-12-13 00:01:31,892:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
-Traceback (most recent call last):
-  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
-  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
-  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
-  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
-  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
-TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object

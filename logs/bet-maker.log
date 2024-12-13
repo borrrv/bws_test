@@ -1,5 +1,0 @@
-2024-12-13 00:01:31,057:START:main.py:lifespan:WARNING :===== Starting bet-maker =====
-2024-12-13 00:04:36,059:START:main.py:lifespan:WARNING :===== Starting bet-maker =====
-2024-12-13 00:04:46,202:START:main.py:lifespan:WARNING :===== Starting bet-maker =====
-2024-12-13 00:04:46,416:src.utils.cruds:cruds.py:create_one:WARNING :Creation was successful
-2024-12-13 00:16:40,696:START:main.py:lifespan:WARNING :===== Starting bet-maker =====
