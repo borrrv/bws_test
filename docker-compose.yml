@@ -1,0 +1,68 @@
+version: "3"
+
+services:
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    restart: unless-stopped
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  line-provider:
+    build:
+      context: ./line-provider
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    volumes:
+      - "./logs/:/app/src/log/"
+      - "./protos/:/app/src/protos/"
+    depends_on:
+      - rabbitmq
+    links:
+      - rabbitmq
+
+  bet-maker:
+    build:
+      context: ./bet-maker
+    ports:
+      - "4000:4000"
+    restart: on-failure
+    volumes:
+      - "./logs/:/app/src/log/"
+      - "./protos/:/app/src/protos/"
+    depends_on:
+      - database
+      - rabbitmq
+    links:
+       - rabbitmq
+
+  database:
+    image: postgres:16
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    volumes:
+      - "/postgres_data:/var/lib/postgresql/data"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=0000
+      - POSTGRES_DB=bws
+      - POSTGRES_PORT=5432
+    depends_on:
+      - rabbitmq
+
+volumes:
+  rabbitmq_data:

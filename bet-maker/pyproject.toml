@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "bet-maker"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav Boroday <vrboroday@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+pre-commit = "^4.0.1"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.32.1"
+sqlalchemy = "^2.0.36"
+grpcio-tools = "^1.68.1"
+asyncpg = "^0.30.0"
+aio-pika = "^9.5.3"
+orjson = "^3.10.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 120
+extend-exclude = [
+    '.git',
+    '__pycache__',
+    'env',
+    '.env',
+    'venv',
+    'test.py',
+    'postgres_data',
+    ]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"

@@ -1,0 +1,5 @@
+.idea
+log/
+test*
+*_test.py
+logs/
