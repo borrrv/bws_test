@@ -12,6 +12,11 @@ sqlalchemy = "^2.0.36"
 pre-commit = "^4.0.1"
 python-dotenv = "^1.0.1"
 uvicorn = "^0.32.1"
+grpcio = "^1.68.1"
+grpcio-tools = "^1.68.1"
+rabbitmq = "^0.2.0"
+aio-pika = "^9.5.3"
+orjson = "^3.10.12"
 
 
 [build-system]

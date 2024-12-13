@@ -1,4 +1,4 @@
 [flake8]
 max-line-length = 120
-exclude = .git,__pycache__,.env
+exclude = .git,__pycache__,.env, event_pb2.py, event_pb2.pyi, event_pb2_grpc.py
 ignore = E203

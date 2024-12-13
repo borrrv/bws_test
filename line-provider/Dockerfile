@@ -11,3 +11,4 @@ COPY --from=requirements-stage /tmp/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 COPY . /app
 CMD ["python", "wsgi.py"]
+#CMD ["sh", "-c", "python wsgi.py & python src/grpc_event/grpc_server.py"]

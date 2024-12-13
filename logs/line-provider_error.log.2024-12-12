@@ -1,0 +1,1898 @@
+2024-12-12 17:33:46,416:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bytes' object
+2024-12-12 17:33:47,177:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bytes' object
+2024-12-12 17:33:50,020:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bytes' object
+2024-12-12 17:33:53,468:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bytes' object
+2024-12-12 17:36:13,758:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'dict' object
+2024-12-12 17:36:14,567:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'dict' object
+2024-12-12 17:37:00,436:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'dict' object
+2024-12-12 17:37:22,783:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'dict' object
+2024-12-12 17:38:27,388:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'dict' object
+2024-12-12 17:39:43,776:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [ValueError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(message=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Protocol message Response has no "message" field.
+2024-12-12 17:40:21,666:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:40:22,454:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:40:22,928:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:40:23,198:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:40:23,571:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:11,542:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:11,965:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:12,410:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:12,859:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:13,264:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:14,049:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:41:15,346:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 21, in GetEventAll
+    response = event_pb2.Response(events=result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Parameter to MergeFrom() must be instance of same class: expected <class 'event_pb2.Event'> got <class 'str'>.
+2024-12-12 17:43:43,758:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:44,583:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:44,958:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:45,210:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:45,420:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:45,899:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:46,572:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for event_id, event_data in result.items():
+                                ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 17:43:48,179:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [UnboundLocalError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 18, in GetEventAll
+    events = []
+    ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+2024-12-12 18:14:24,383:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 22, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:14:26,638:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 22, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:15:31,920:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 23, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:15:44,264:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 23, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:16:25,927:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 23, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:16:26,506:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 23, in GetEventAll
+    event_id=event_data.event_id,
+             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'event_id'
+2024-12-12 18:18:03,845:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 25, in GetEventAll
+    deadline=str(event_data["deadline"],  # Преобразуем Decimal в строку
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'state' is an invalid keyword argument for str()
+2024-12-12 18:18:04,719:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 25, in GetEventAll
+    deadline=str(event_data["deadline"],  # Преобразуем Decimal в строку
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'state' is an invalid keyword argument for str()
+2024-12-12 19:00:35,378:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:08:04,366:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:08:05,187:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:12:59,430:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in self.storage.items():
+                      ^^^^^^^^^^^^
+AttributeError: 'EventService' object has no attribute 'storage'
+2024-12-12 19:13:06,753:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in self.storage.items():
+                      ^^^^^^^^^^^^
+AttributeError: 'EventService' object has no attribute 'storage'
+2024-12-12 19:13:07,419:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in self.storage.items():
+                      ^^^^^^^^^^^^
+AttributeError: 'EventService' object has no attribute 'storage'
+2024-12-12 19:13:32,640:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:33,267:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:33,486:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:33,673:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:33,849:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,039:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,170:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,315:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,474:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,623:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:13:34,802:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 19, in GetEventAll
+    for key, event in storage.items():
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:18:21,920:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 24, in GetEventAll
+    for key, event in storage.items()
+                      ^^^^^^^^^^^^^
+AttributeError: 'Storage' object has no attribute 'items'
+2024-12-12 19:20:55,813:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage.getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'getitems'
+2024-12-12 19:20:56,340:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage.getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'getitems'
+2024-12-12 19:20:56,765:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage.getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'getitems'
+2024-12-12 19:21:26,702:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:21:27,153:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:21:27,563:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:21:27,955:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:21:28,387:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:21:28,819:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventAll]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 17, in GetEventAll
+    return storage.get_convert(event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 67, in get_convert
+    for key, event in self.get_storage().getitems()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'getitems'
+2024-12-12 19:55:40,144:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:55:40,919:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:55:46,674:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:56:02,004:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:56:44,872:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:57:35,499:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:57:37,220:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:57:37,793:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:57:38,481:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:58:12,351:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:58:12,542:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:58:12,706:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 19:58:13,399:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [NotImplementedError] raised by servicer method [/event.EventService/GetEvent]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 415, in _finish_handler_with_unary_response
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/event_pb2_grpc.py", line 62, in GetEvent
+    raise NotImplementedError('Method not implemented!')
+NotImplementedError: Method not implemented!
+2024-12-12 22:18:38,986:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:38,989:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:38,992:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:38,995:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:38,997:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:38,999:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:39,002:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:39,005:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:39,008:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:18:39,011:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:19:27,784:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,788:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,791:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,794:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,799:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:19:27,802:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,804:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,807:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,813:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:27,817:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,627:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,630:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,633:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,635:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,638:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,641:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,644:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,648:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:19:29,650:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:19:29,653:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 55, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,792:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,796:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,798:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,801:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,803:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:20:30,805:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,808:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,810:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,812:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:30,814:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,340:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,343:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,345:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,348:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,351:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:20:31,354:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,357:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,360:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,362:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:20:31,365:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 48, in get_convert_storage
+    logger.warning(f"!!!: {events.items()}")
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,097:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,101:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2024-12-12 22:21:11,104:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,107:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,110:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,114:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,117:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,120:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,123:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:21:11,125:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 56, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 892, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'EventCreateDTO' object has no attribute 'items'
+2024-12-12 22:23:21,776:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "/app/src/core/storage.py", line 57, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 62, in get_convert_storage
+    event_id=events.event_id,
+             ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'event_id'
+2024-12-12 22:23:22,549:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [AttributeError] raised by servicer method [/event.EventService/GetEventById]
+Traceback (most recent call last):
+  File "/app/src/core/storage.py", line 57, in get_convert_storage
+    for key, event in events.items()
+                      ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 408, in _finish_handler_with_unary_response
+  File "/app/src/grpc_event/grpc_server.py", line 36, in GetEventById
+    return storage.get_convert_storage(valid_events, event_pb2)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/core/storage.py", line 62, in get_convert_storage
+    event_id=events.event_id,
+             ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'event_id'
+2024-12-12 22:54:41,631:aiormq.connection:connection.py:__handle_close:ERROR :Unexpected connection close from remote "amqp://guest:******@rabbitmq:5672/", Connection.Close(reply_code=320, reply_text="CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'")
+NoneType: None
+2024-12-12 22:55:06,673:src.core.rabbit:rabbit.py:initialize:ERROR :Error initializing connection: [Errno 111] Connect call failed ('172.23.0.3', 5672)
+2024-12-12 22:55:06,674:asyncio:base_events.py:default_exception_handler:ERROR :Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<RabbitMQ.start() done, defined at /app/src/core/rabbit.py:53> exception=<AMQPConnectionError: (111, "Connect call failed ('172.23.0.3', 5672)")>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 457, in connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 1086, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 1070, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 974, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 638, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 678, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('172.23.0.3', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/src/core/rabbit.py", line 55, in start
+    await self.initialize()
+  File "/app/src/core/rabbit.py", line 24, in initialize
+    self.connection = await aio_pika.connect_robust(f"amqp://{self.user}:{self.password}@{self.url}")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 334, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 180, in connect
+    await self.__fail_fast_future
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 135, in __connection_factory
+    await Connection.connect(self, self.__connect_timeout)
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/connection.py", line 125, in connect
+    self.transport = await UnderlayConnection.connect(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/abc.py", line 679, in connect
+    connection = await cls.make_connection(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/abc.py", line 667, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/tasks.py", line 452, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 920, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.11/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/abc.py", line 44, in __inner
+    return await self.task
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 464, in connect
+    raise AMQPConnectionError(*e.args) from e
+aiormq.exceptions.AMQPConnectionError: [Errno 111] Connect call failed ('172.23.0.3', 5672)
+2024-12-12 22:59:12,602:src.core.rabbit:rabbit.py:initialize:ERROR :Error initializing connection: [Errno 111] Connect call failed ('172.24.0.3', 5672)
+2024-12-12 22:59:12,604:asyncio:base_events.py:default_exception_handler:ERROR :Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<RabbitMQ.start() done, defined at /app/src/core/rabbit.py:53> exception=<AMQPConnectionError: (111, "Connect call failed ('172.24.0.3', 5672)")>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 457, in connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 1086, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 1070, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 974, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 638, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 678, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('172.24.0.3', 5672)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/src/core/rabbit.py", line 55, in start
+    await self.initialize()
+  File "/app/src/core/rabbit.py", line 24, in initialize
+    self.connection = await aio_pika.connect_robust(f"amqp://{self.user}:{self.password}@{self.url}")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 334, in connect_robust
+    await connection.connect(timeout=timeout)
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 180, in connect
+    await self.__fail_fast_future
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/robust_connection.py", line 135, in __connection_factory
+    await Connection.connect(self, self.__connect_timeout)
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/connection.py", line 125, in connect
+    self.transport = await UnderlayConnection.connect(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/abc.py", line 679, in connect
+    connection = await cls.make_connection(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aio_pika/abc.py", line 667, in make_connection
+    connection: aiormq.abc.AbstractConnection = await asyncio.wait_for(
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/tasks.py", line 452, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 920, in connect
+    await connection.connect(client_properties or {})
+  File "/usr/local/lib/python3.11/site-packages/aiormq/base.py", line 164, in wrap
+    return await self.create_task(func(self, *args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/abc.py", line 44, in __inner
+    return await self.task
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiormq/connection.py", line 464, in connect
+    raise AMQPConnectionError(*e.args) from e
+aiormq.exceptions.AMQPConnectionError: [Errno 111] Connect call failed ('172.24.0.3', 5672)
+2024-12-12 23:27:14,920:src.core.rabbit:rabbit.py:publish_message:ERROR :Error publishing message: 'bytes' object has no attribute 'encode'
+2024-12-12 23:54:12,417:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object
+2024-12-12 23:57:48,713:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object
+2024-12-12 23:58:01,381:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object
+2024-12-12 23:59:00,375:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object
+2024-12-12 23:59:01,609:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object

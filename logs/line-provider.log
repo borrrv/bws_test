@@ -1,0 +1,53 @@
+2024-12-13 00:01:30,257:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 1
+2024-12-13 00:01:30,274:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 2
+2024-12-13 00:01:30,275:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 3
+2024-12-13 00:01:30,276:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 4
+2024-12-13 00:01:30,276:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 5
+2024-12-13 00:01:30,277:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 6
+2024-12-13 00:01:30,278:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 7
+2024-12-13 00:01:30,279:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 8
+2024-12-13 00:01:30,280:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 9
+2024-12-13 00:01:30,280:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 10
+2024-12-13 00:01:30,281:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-13 00:01:31,892:src.core.storage:storage.py:get_valid_one_event:WARNING :!!!: {True}
+2024-12-13 00:01:31,892:grpc._cython.cygrpc:events.py:_run:ERROR :Unexpected [TypeError] raised by servicer method [/event.EventService/EventCheckTime]
+Traceback (most recent call last):
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 689, in grpc._cython.cygrpc._handle_exceptions
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 831, in _handle_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 554, in _handle_unary_unary_rpc
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/server.pyx.pxi", line 431, in _finish_handler_with_unary_response
+  File "src/python/grpcio/grpc/_cython/_cygrpc/aio/common.pyx.pxi", line 54, in grpc._cython.cygrpc.serialize
+TypeError: descriptor 'SerializeToString' for 'google._upb._message.Message' objects doesn't apply to a 'bool' object
+2024-12-13 00:04:35,409:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 1
+2024-12-13 00:04:35,410:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 2
+2024-12-13 00:04:35,411:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 3
+2024-12-13 00:04:35,412:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 4
+2024-12-13 00:04:35,412:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 5
+2024-12-13 00:04:35,413:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 6
+2024-12-13 00:04:35,414:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 7
+2024-12-13 00:04:35,414:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 8
+2024-12-13 00:04:35,415:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 9
+2024-12-13 00:04:35,416:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 10
+2024-12-13 00:04:35,416:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-13 00:04:45,365:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 1
+2024-12-13 00:04:45,366:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 2
+2024-12-13 00:04:45,366:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 3
+2024-12-13 00:04:45,367:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 4
+2024-12-13 00:04:45,368:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 5
+2024-12-13 00:04:45,369:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 6
+2024-12-13 00:04:45,369:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 7
+2024-12-13 00:04:45,370:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 8
+2024-12-13 00:04:45,371:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 9
+2024-12-13 00:04:45,371:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 10
+2024-12-13 00:04:45,372:START:main.py:lifespan:WARNING :===== Starting line-provider =====
+2024-12-13 00:16:39,709:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 1
+2024-12-13 00:16:39,709:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 2
+2024-12-13 00:16:39,710:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 3
+2024-12-13 00:16:39,710:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 4
+2024-12-13 00:16:39,711:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 5
+2024-12-13 00:16:39,711:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 6
+2024-12-13 00:16:39,712:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 7
+2024-12-13 00:16:39,713:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 8
+2024-12-13 00:16:39,713:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 9
+2024-12-13 00:16:39,714:src.core.storage:storage.py:add_one:WARNING :Add completed for event ID: 10
+2024-12-13 00:16:39,714:START:main.py:lifespan:WARNING :===== Starting line-provider =====

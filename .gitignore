@@ -2,3 +2,4 @@
 log/
 test*
 .env
+*_test.py

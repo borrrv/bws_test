@@ -11,4 +11,7 @@ async def patch_one(request: Request, _id: str, data: EventPatchDTO):
         raise HTTPException(status_code=404, detail=f"Event with id {_id} not found")
     updated_data = existing_event.copy(update=data.model_dump(exclude_unset=True))
     request.app.state.storage.set_one(_id, updated_data)
+    await request.app.state.rabbitmq.publish_message(
+        {"status": data.state.value, "event_id": _id}
+    )
     return

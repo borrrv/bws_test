@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package event;
+
+service EventService {
+  rpc GetEventAll(Request) returns (Response);
+  rpc GetEvent(Request) returns (Response);
+  rpc GetEventById(RequestById) returns (Response);
+  rpc EventCheckTime(RequestById) returns (ResponseCheck);
+}
+
+message Request {
+}
+
+message RequestById {
+  string event_id = 1;
+}
+
+message Event {
+  string event_id = 1;
+  string coefficient = 2;
+  string deadline = 3;
+  string state = 4;
+}
+
+message Response {
+  repeated Event events = 1;
+}
+
+message ResponseCheck {
+  bool check = 1;
+}

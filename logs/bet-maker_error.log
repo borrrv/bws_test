@@ -1,0 +1,18 @@
+2024-12-12 22:31:46,444:src.bet.service:service.py:create_one:ERROR :!!!!!: {}
+2024-12-12 22:32:10,463:src.bet.service:service.py:create_one:ERROR :!!!!!: {}
+2024-12-12 22:33:10,894:src.bet.service:service.py:create_one:ERROR :!!!!!: {'10': EventGetDTO(event_id='10', coefficient=Decimal('11.2'), deadline=Decimal('1734042643.995411872863769531'), state=<EventState.NEW: 1>)}
+2024-12-12 22:33:58,213:src.bet.service:service.py:create_one:ERROR :!!!!!: {'10': EventGetDTO(event_id='10', coefficient=Decimal('11.2'), deadline=Decimal('1734042643.995411872863769531'), state=<EventState.NEW: 1>)}
+2024-12-12 22:34:01,653:src.bet.service:service.py:create_one:ERROR :!!!!!: {}
+2024-12-12 22:34:25,385:src.bet.service:service.py:create_one:ERROR :!!!!!: {}
+2024-12-12 22:38:18,395:src.bet.service:service.py:create_one:ERROR :!!!!!: {}
+2024-12-12 22:38:22,521:src.bet.service:service.py:create_one:ERROR :!!!!!: {'10': EventGetDTO(event_id='10', coefficient=Decimal('11.2'), deadline=Decimal('1734043147.413592576980590820'), state=<EventState.NEW: 1>)}
+2024-12-12 22:38:36,368:src.bet.service:service.py:create_one:ERROR :!!!!!: {'10': EventGetDTO(event_id='10', coefficient=Decimal('11.2'), deadline=Decimal('1734043147.413592576980590820'), state=<EventState.NEW: 1>)}
+2024-12-12 22:40:26,968:src.bet.service:service.py:create_one:ERROR :!!!!!: {'10': EventGetDTO(event_id='10', coefficient=Decimal('11.2'), deadline=Decimal('1734043268.586090087890625'), state=<EventState.NEW: 1>)}
+2024-12-12 22:59:13,087:src.core.rabbit:rabbit.py:initialize:ERROR :Error initializing connection: [Errno 111] Connect call failed ('172.24.0.3', 5672)
+2024-12-12 23:28:32,824:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 'dict' object has no attribute 'event_id'
+2024-12-12 23:31:17,667:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 'dict' object has no attribute 'status'
+2024-12-12 23:32:15,170:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 2
+2024-12-12 23:33:24,940:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 2
+2024-12-12 23:34:11,135:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 2
+2024-12-12 23:35:31,355:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 2
+2024-12-12 23:39:25,962:src.core.rabbit:rabbit.py:on_message:ERROR :Error processing message: 2

@@ -12,6 +12,11 @@ def get_one(request: Request, _id: str) -> EventGetDTO:
     return event
 
 
+@router.get("/all/", response_model=dict[str, EventGetDTO], status_code=200)
+def get_list_all(request: Request) -> dict[str, EventGetDTO]:
+    return request.app.state.storage.get_storage
+
+
 @router.get("/", response_model=dict[str, EventGetDTO], status_code=200)
 def get_list(request: Request) -> dict[str, EventGetDTO]:
-    return request.app.state.storage.get_storage()
+    return request.app.state.storage.get_valid_event()
